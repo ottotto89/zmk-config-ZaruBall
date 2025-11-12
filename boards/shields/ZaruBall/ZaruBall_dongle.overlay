@@ -18,4 +18,15 @@
 
 &trackball_listener {
     status = "okay";
+
+    &trackball_listener {
+        input-processors = <&zip_temp_layer 4 500>;
+
+        scroll {
+            layers = <3>;
+            input-processors =
+                <&zip_xy_transform IINPUT_TRANSFORM_X_INVERT>;
+                <&zip_xy_to_scroll_mapper>;
+        };
+    };
 };
