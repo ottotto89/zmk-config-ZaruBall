@@ -19,7 +19,7 @@
 
 #include <input/processors.dtsi>
  &trackball_listener {
-    input-processors = <&zip_temp_layer 4 500>:
+    input-processors = <&zip_temp_layer 4 500>;
 
     scroll {
         layers = <3>;
