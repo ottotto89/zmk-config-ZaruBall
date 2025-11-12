@@ -23,7 +23,7 @@
     scroll {
         layers = <3>;
         input-processors =
-            <&zip_xy_transform IINPUT_TRANSFORM_X_INVERT>;
+            <&zip_xy_transform IINPUT_TRANSFORM_X_INVERT>,
             <&zip_xy_to_scroll_mapper>;
     };
 };
