@@ -14,11 +14,11 @@
 #define LOWER    2
 #define RAISE    3
 #define ADJUST   4
-#define SCROLL   5
+#define SCROLL   3
 
 // スクロール量の設定
 
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 10
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20
 
 &trackball_listener {
     input-processors = <
