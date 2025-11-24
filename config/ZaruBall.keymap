@@ -150,11 +150,11 @@
             display-name = "Lower";
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
             bindings = <
-&trans            &kp F1     &kp F2    &kp F3        &kp F4        &kp F5                &trans  &trans  &trans  &trans              &kp F6    &kp F7    &kp F8    &kp F9     &kp F10  &none
-&trans            &none      &none     &none         &none         &none                 &trans  &trans  &trans  &trans              &none     &none     &none     &none      &none    &none
-&trans            &none      &none     &kp UP        &none         &kp HOME  &kp HOME    &trans  &trans  &trans  &trans    &kp HOME  &kp HOME  &none     &kp UP    &none      &none    &none
-&kp LEFT_SHIFT    &none      &kp LEFT  &kp DOWN      &kp RIGHT     &kp END   &kp END     &trans  &trans  &trans  &trans    &kp END   &kp END   &kp LEFT  &kp DOWN  &kp RIGHT  &none    &kp RIGHT_SHIFT
-&kp LEFT_CONTROL  &kp RSHFT            &kp LEFT_ALT  &kp LEFT_GUI  &trans    &trans                                        &trans    &trans                                            &kp RIGHT_CONTROL
+&trans            &kp F1     &kp F2    &kp F3        &kp F4        &kp F5                 &trans  &trans  &trans  &trans                   &kp F6  &kp F7    &kp F8    &kp F9     &kp F10  &none
+&trans            &none      &none     &none         &none         &none                  &trans  &trans  &trans  &trans                   &none   &none     &none     &none      &none    &none
+&trans            &none      &none     &kp UP        &none         &none   &kp PAGE_UP    &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &none   &none     &kp UP    &none      &none    &none
+&kp LEFT_SHIFT    &none      &kp LEFT  &kp DOWN      &kp RIGHT     &none   &kp HOME       &trans  &trans  &trans  &trans    &kp END        &none   &kp LEFT  &kp DOWN  &kp RIGHT  &none    &kp RIGHT_SHIFT
+&kp LEFT_CONTROL  &kp RSHFT            &kp LEFT_ALT  &kp LEFT_GUI  &trans  &trans                                           &trans         &trans                                          &kp RIGHT_CONTROL
             >;
         };
 
